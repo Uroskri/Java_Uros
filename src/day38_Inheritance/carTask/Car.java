@@ -16,6 +16,21 @@ public class Car {
     }
 
     public void start() {
-        System.out.println();
+        System.out.println(brand + " "+ model+" has started");
+    }
+    public void drive() {
+        System.out.println(brand + " "+ model+" is driving");
+    }
+
+
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                ", miles=" + miles +
+                ", year=" + year +
+                '}';
     }
 }
