@@ -32,5 +32,6 @@ public class Car {
                 ", miles=" + miles +
                 ", year=" + year +
                 '}';
+
     }
 }
